@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'cursos',
+    path: 'cursos/:nome',
     component: CoursesListComponent
   }
 ];
