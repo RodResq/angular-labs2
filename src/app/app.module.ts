@@ -11,7 +11,6 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    CoursesModule,
     AppRoutingModule
   ],
   providers: [],
