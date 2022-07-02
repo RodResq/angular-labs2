@@ -13,7 +13,7 @@ export class BloqueadorGuard implements CanActivate, CanDeactivate<AppComponent>
     next: ActivatedRouteSnapshot,
     state: RouterStateSnapshot):  boolean {
     console.log(next, state);
-    return false;
+    return true;
   }
 
   canDeactivate(
@@ -27,7 +27,7 @@ export class BloqueadorGuard implements CanActivate, CanDeactivate<AppComponent>
   }
 
   canLoad(route: Route): boolean {
-    return false;
+    return true;
   }
   
 }
